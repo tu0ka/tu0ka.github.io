@@ -1,0 +1,301 @@
+body   {
+        background-color: antiquewhite;
+}
+
+h1 {
+        color: rgb(255, 255, 255);
+        text-align: center;
+}
+ p {
+        color: rgb(219, 191, 191);
+        text-align: center;
+        font-size: large;
+        
+ }
+  header {
+        border-radius: 15px;
+        background-image: url("https://cdn5.vectorstock.com/i/1000x1000/87/74/coffee-beans-vector-68774.jpg");
+        padding: 5%;
+        box-shadow:0 0 30px #5a3e1b;
+  }
+
+main {
+        text-align: center;
+        color: brown;
+        line-height: 500%;
+}
+
+.head {
+        
+        background-color: rgb(197, 165, 125);
+        width: 350px;
+        margin: 0 auto;
+        height: 260px;
+        border-radius: 7px;
+        box-shadow:0 0 30px #5a3e1b;
+
+
+}
+
+.bokor-regular {
+  font-family: "Caprasimo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.head  {
+
+    font-family: 'Caprasimo', cursive;
+
+}
+
+
+h1 {
+  margin-top: 20px;
+  
+}
+
+.gallery {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #333;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.contact a {
+  text-decoration: underline;
+  color: #000;
+}
+
+.additional-info {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #f5f0e6;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: 'Caprasimo', cursive;
+  color: #5a3e1b;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.additional-info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #7e5e31;
+}
+
+.additional-info p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin: 10px 0;
+  font-style: italic;
+}
+
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 0;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.main-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: 'Caprasimo', cursive;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.main-nav ul li a:hover {
+  color: #ffcc00;
+}
+
+.reviews {
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+  font-family: 'Caprasimo', cursive;
+  color: #4b3a1a;
+}
+
+.reviews h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.review {
+  display: inline-block;
+  width: 280px;
+  margin: 0 15px;
+  background-color: #f9f4e9;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+.review img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.review h3 {
+  margin-bottom: 10px;
+  color: #6b4e00;
+}
+
+
+.chefs {
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+  font-family: 'Caprasimo', cursive;
+  color: #5a4b2a;
+}
+
+.chefs h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.chef {
+  display: inline-block;
+  width: 220px;
+  margin: 0 15px;
+}
+
+.chef img {
+  width: 180px;
+  height: 180px;
+  border-radius: 15px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.chef p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+
+.promotions {
+  max-width: 600px;
+  margin: 40px auto 60px;
+  background-color: #fef7e7;
+  padding: 25px 30px;
+  border-radius: 15px;
+  font-family: 'Caprasimo', cursive;
+  color: #7a5c32;
+  box-shadow: 0 0 12px rgba(255, 204, 0, 0.3);
+  text-align: center;
+}
+
+.promotions h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.promo {
+  margin-bottom: 20px;
+}
+
+.promo h3 {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+  color: #a67c00;
+}
+
+.promo p {
+  font-size: 1.1rem;
+  color: #6a5108;
+}
+
+
+.footer {
+  background-color: #3e2f0c;
+  color: #f0e6c8;
+  padding: 20px 15px;
+  font-family: 'Caprasimo', cursive;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #4c3505;
+}
+
+.footer .contacts p,
+.footer .social p {
+  margin: 5px 0;
+  font-weight: 700;
+}
+
+.footer .map img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.footer .social ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.footer .social ul li a {
+  color: #f0e6c8;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.footer .social ul li a:hover {
+  color: #ffd700;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.map-section {
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+  font-family: 'Caprasimo', cursive;
+  color: #4c3505;
+  padding: 0 0 10px;
+}
+
+.map-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.map-container {
+  width: 100%;
+  height: 350px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  justify-content: baseline;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
